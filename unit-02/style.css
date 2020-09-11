@@ -1,0 +1,56 @@
+html {
+    margin: 0, auto;
+    padding: 0;
+    
+
+}
+
+body {
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header > .banner {
+    width: 700px;
+    height: 200px;
+   background-image: url(./insepctor.svg);
+   border: 2px solid brown;
+    
+}
+
+.baner {
+    border: 3px solid brown;
+    
+}
+
+.banner > h1 {
+    color: red;
+
+}
+
+.banner > h2 {
+    color: rgb(3, 245, 3);
+    width: fit-content;
+    background-color: blue;
+}
+
+main {
+    margin: 25%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+
+
+footer {
+    background-color: brown;
+    color: white;
+    text-align-last: center;
+    height: 2rem;
+    padding-top: 15px;
+    
+}
