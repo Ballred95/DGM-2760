@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="main.js"></script>
+    
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -12,25 +12,28 @@
         <div class="stats">
 
             <div class="plays">
-                <h1>plays</h1>
+                <input id='guess' type='number' value=""  />
+                <button onclick='plays()'>GUESS</button>
             </div>
             <div class="trys">
-                <h1>trys</h1>
+                trys: 0
             </div>
             <div class="feedback">
-                <h1>feedback</h1>
+                feedback:
             </div>
             <div class="awards">
-                <h1>awards</h1>
+                awards
             </div>
             
         </div>
 
         <div class="crate">
-            <img  src="./box.png" alt="" onclick="handleClick()">
+            <img  src="./box.png" alt="" >
         </div>
        
 
     </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

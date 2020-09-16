@@ -1,11 +1,16 @@
 html {
-    margin: 0;
+    margin: 0, auto;
     padding: 0;
 
 }
 
+body {
+    margin: 0px;
+}
+
 .game-cube {
     background-color: pink;
+    
 }
 .crate {
     display: flex;
@@ -19,3 +24,9 @@ html {
     height: 100px;
 }
 
+.stats{
+    font-size: 2em;
+    font-weight: 600;
+    padding-left: 400px;
+    padding-top: 30px;
+}
