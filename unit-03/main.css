@@ -1,0 +1,21 @@
+html {
+    margin: 0;
+    padding: 0;
+
+}
+
+.game-cube {
+    background-color: pink;
+}
+.crate {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 160px;
+}
+
+.crate > img {
+    width: 100px;
+    height: 100px;
+}
+
