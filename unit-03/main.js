@@ -29,7 +29,8 @@ function handleClick() {
 
 
 
-
+document.querySelector('header h1').innerText = 'Guessing Game'
+document.querySelector('header h2').innerText = 'Guess the number in the box! 3 or less for gold, 6 or less for silver, anything more you get bronze'
 const secretNumber = Math.floor((Math.random() * 15) + 1);
     console.log(secretNumber)
 
@@ -45,27 +46,39 @@ let attempt = 0
             { opacity: 1 },
             { opacity: 0}
           ];
+          attempt += 1
+          document.querySelector('.trys').innerText = `trys: ${attempt}`
+          document.querySelector('.feedback').innerText = `feedback: You won in ${attempt} trys!`
+          
         const hide = function() {
             
             document.querySelector('img').style.visibility='hidden'
         }
         function fade(){
-            document.querySelector('img').animate(keyz, 400)
-            setTimeout(hide, 401)
+            document.querySelector('img').animate(keyz, 200)
+            // setTimeout(hide, 401)
         }
         switch (true) {
-            case (attempt < 3):
+            case (attempt < 4):
+                document.querySelector('.awards').innerText = `awards: Gold`
                 fade()
+                setTimeout(()=>document.querySelector('img').src='./Gold_Medal_PNG_Clip_Art_Image.png', 200)
                 break;
             case (attempt < 7):
+                document.querySelector('.awards').innerText = `awards: Silver`
                 fade()
+                setTimeout(()=>document.querySelector('img').src='./Silver_Medal_PNG_Clip_Art_Image.png', 200)
                 break;
-            default: fade()
+            default: 
+            document.querySelector('.awards').innerText = `awards: Bronze`
+            fade()
+            setTimeout(()=>document.querySelector('img').src='./Bronze_Medal_PNG_Clip_Art_Image.png', 200)
                 break;
         }
     }
     else if (myNumber == 0 || myNumber > 15) {
         document.querySelector('.feedback').innerText = 'feedback: Number is out of range'
+        document.querySelector('img').animate(keyframes, 400)
     }
     else if (myNumber > secretNumber) {
         attempt += 1
