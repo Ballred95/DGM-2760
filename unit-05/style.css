@@ -1,0 +1,59 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-image: url('https://www.treehugger.com/thmb/7VB4J-Sitf7FNoTtN8bwh92EWQ0=/800x600/smart/filters:no_upscale()/__opt__aboutcom__coeus__resources__content_migration__treehugger__images__2016__07__green-forest-trees-697b021e66cf4892ada9ffdca1088576.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+
+header > h1{
+    color: saddlebrown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+span {
+    color: burlywood;
+}
+
+
+.button-container, .error-container, .displayResults {
+    margin-top: 100px;
+    width: 400px;
+    background-color: green;
+    text-align: center;
+    height: 400px;
+    border-radius: 10px;
+    border: 2px solid brown;
+}
+
+.displayResults {
+    overflow: scroll;
+    max-height: 400px;
+   
+    /* height: fit-content; */
+    
+}
+
+footer {
+    text-align: center;
+    background-color: powderblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
