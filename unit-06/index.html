@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nonsense Story</title>
+</head>
+<body>
+    <header>
+        <h1 style="  text-shadow: 2px 2px 4px #000000;
+color: white;">Story Books</h1>
+        <h2 style="  text-shadow: 2px 2px 4px #000000;
+        color: white;">A Tale of nonsense...</h2>
+    </header>
+    <main>
+        <div class="container">
+            <div class="text-container">
+                <div class="text-area">
+                    <h1>Three Nouns</h1>
+                    <textarea name="nountext" id="nountext" cols="30" rows="10"></textarea>
+                </div>
+                <div class="text-area">
+                    <h1>Three Adjectives</h1>
+                    <textarea name="adjtext" id="adjtext" cols="30" rows="10"></textarea>
+                </div>
+                <div class="text-area">
+                    <h1>Three Verbs</h1>
+                    <textarea name="verbtext" id="verbtext" cols="30" rows="10"></textarea>
+                </div>
+               
+            </div>
+            <div class="button-div">
+                <button  onclick="splitter()">Create story</button>
+            </div>
+        </div>
+        
+        <h1>Story</h1>
+        <div class="story"></div>
+        
+    </main>
+    <footer>
+        unit-06 dgm2760
+    </footer>
+
+
+</body>
+<script src="main.js"></script>
+</html>

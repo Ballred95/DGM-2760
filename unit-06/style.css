@@ -1,0 +1,58 @@
+
+
+.text-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: burlywood;
+}
+
+
+
+.story {
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: beige;
+}
+
+header {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/020/338/807/large/jann-anjelo-pagharion-a1-bg.jpg?1567407501');
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-size:100% 100%;
+    text-align: center;
+    
+   
+}
+
+header > h1 {
+    padding-top: 50px;
+}
+
+footer {
+    text-align: center;
+    background-color: powderblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: rgb(5, 199, 5);
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    
+
+}
