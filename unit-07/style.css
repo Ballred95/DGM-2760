@@ -1,0 +1,43 @@
+
+
+header {
+    background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/pizza-banner-design-template-5623a47ee70d2ca4f3a4eca9c19a8039_screen.jpg?ts=1572691129);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-size:100% 100%;
+}
+header > h1 {
+    padding-left: 20px;
+    padding-top: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+header > h2 {
+    padding-left: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.message {
+    height: 30px;
+    background-color: khaki;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: powderblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+}
