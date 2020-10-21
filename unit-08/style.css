@@ -1,0 +1,44 @@
+.head-contain{
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-image: url('https://cdn.kimkim.com/files/a/content_articles/featured_photos/d21b085ef2ce77c4331c462d385aed66315ae019/big-c0028d755da3df7d7160a6015869431d.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 960px;
+    background-size: cover;
+    background-size:100% 100%;
+    text-align: center;
+    color: black;
+    
+    padding: 20px;
+
+    
+}
+
+.objectives {
+    margin-left: 100px;
+}
+
+.feedback {
+    width: 400px;
+    height: 50px;
+    background-color: gold;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h1, h2 {
+    background-color: gold;
+    width: max-content;
+}
+
+footer {
+    text-align: center;
+    background-color: powderblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
