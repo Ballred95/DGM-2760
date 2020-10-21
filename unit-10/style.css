@@ -1,0 +1,49 @@
+header {
+
+    background-image: url('https://aircharterservice-globalcontent-live.cphostaccess.com/images/global/blogs/480595_bellagio_las_vegas_-_banner_tcm87-42531.jpg');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 960px;
+    background-size: cover;
+    background-size:100% 100%;
+    color: gold
+}
+
+.head-contain{
+    display: flex;
+    justify-content: center;
+   
+}
+
+header > h1 {
+    margin-left: 20px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    font-size: 1.4em;
+}
+
+#pic {
+    width: 600px;
+    height: 300px;
+}
+
+img {
+    display: none;
+}    
+img[src] {
+   display: block;
+ }
+
+ .info {
+     background-color: blanchedalmond;
+ }
+
+ a {
+     width: fit-content;
+     background-color: silver;
+     
+ }

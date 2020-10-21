@@ -1,0 +1,28 @@
+{
+    "hotels" : [
+        {
+            "name": "Marriot",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomType": ["king", "queen", "double"],
+            "address": "1234 street",
+            "picture": "room1.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": "30",
+            "gym": "No",
+            "roomType": ["king", "bunkbeds", "double"],
+            "address": "8888 street",
+            "picture": "room2.jpg"
+        },
+        {
+            "name": "Motel",
+            "rooms": "15",
+            "gym": "No",
+            "roomType": ["double", "shared"],
+            "address": "6660 street",
+            "picture": "room3.jpg"
+        }
+    ]
+}
