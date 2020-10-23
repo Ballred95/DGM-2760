@@ -38,12 +38,34 @@ img[src] {
    display: block;
  }
 
+ .imgs {
+    width: 600px;
+    height: 300px;
+ }
+
+ .info-container {
+     min-width: 100vw;
+     display: flex;
+     justify-content: space-evenly;
+     border: 4px solid gold;
+     
+
+ }
  .info {
+     align-self: center;
      background-color: blanchedalmond;
+     width: 300px;
+    height: 120px;
  }
 
  a {
      width: fit-content;
-     background-color: silver;
+     
      
  }
+ footer {
+    text-align: center;
+    background-color: powderblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
